@@ -1,0 +1,2376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trace_run>
+	<header>
+		<time_stamp>26/6/2020 AT 10:30:54</time_stamp>
+		<dfs_kit_version>V 5.3.1.1</dfs_kit_version>
+		<moteur_version>42.9.0</moteur_version>
+	</header>
+	<trace>
+		<general_params>
+			<operateur_code>00</operateur_code>
+			<gamme_version>go_fr_20060523_v02_aa</gamme_version>
+			<zone_code>unknown</zone_code>
+			<nom_logique>SVI_7001</nom_logique>
+			<site>SOCHAUX</site>
+		</general_params>
+		<cell line="1" column="7" id="10" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/menu0000.s" session="MainSession" sp="0" timestamp="10:30:54:364">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="0"/>
+					<variable name="VCHK" value="0"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<codes>
+					<code name="IDSVI" value="220104"/>
+					<code name="Localisation" value="BTU"/>
+					<code name="PointFluxPMM" value="PRET7001"/>
+					<code name="PointFluxQUALIF" value="PODR7001"/>
+				</codes>
+				<descriptors>
+					<descriptor name="COUPURE" operation="Addition"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="2" column="7" id="123" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/menu0000.s" session="MainSession" sp="0" timestamp="10:30:54:392">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="400"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+					<variable name="V70" value="0"/>
+					<variable name="V73" value="1"/>
+					<variable name="V74" value="0"/>
+					<variable name="V99" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<buffers>
+					<buffer name="GB103" value=" 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"/>
+					<buffer name="GB104" value=" 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"/>
+					<buffer name="GB55" value=" 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"/>
+					<buffer name="GB56" value=" 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"/>
+					<buffer name="GB88" value=" 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"/>
+				</buffers>
+				<variables>
+					<variable name="GV63=" value="0"/>
+					<variable name="GV73=" value="1"/>
+					<variable name="GV74=" value="0"/>
+				</variables>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="3" column="7" id="220" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/menu0000.s" session="MainSession" sp="0" timestamp="10:30:54:408">
+			<local_params>
+				<buffers>
+					<buffer name="B13" value=" 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"/>
+				</buffers>
+				<codes>
+					<code name="Libre16" value="VIDE"/>
+				</codes>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="4"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+					<variable name="V19" value="1"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<buffers>
+					<buffer name="GB14" value=" 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"/>
+					<buffer name="GB15" value=" 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"/>
+					<buffer name="GB16" value=" 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"/>
+					<buffer name="GB18" value=" 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"/>
+					<buffer name="GB19" value=" 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"/>
+					<buffer name="GB79" value=" 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"/>
+					<buffer name="GB90" value=" 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"/>
+				</buffers>
+				<variables>
+					<variable name="GV24=" value="0"/>
+				</variables>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="5" column="7" id="339" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/menu0000.s" session="MainSession" sp="0" timestamp="10:30:54:421">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="50"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<buffers>
+					<buffer name="GB50" value=" 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"/>
+					<buffer name="GB51" value=" 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"/>
+				</buffers>
+				<variables>
+					<variable name="GV61=" value="0"/>
+					<variable name="GV62=" value="0"/>
+					<variable name="GV67=" value="0"/>
+					<variable name="GV68=" value="0"/>
+				</variables>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="7" column="7" id="332" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/menu0000.s" session="MainSession" sp="0" timestamp="10:30:54:424">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="50"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="1" column="7" id="10" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/mode_utilisation.s" session="MainSession" sp="1" timestamp="10:30:54:541">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="50"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="3" column="7" id="248" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/mode_utilisation.s" session="MainSession" sp="1" timestamp="10:30:54:556">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="50"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+					<variable name="V7" value="179"/>
+					<variable name="V30" value="256"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="4" column="7" id="249" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/mode_utilisation.s" session="MainSession" sp="1" timestamp="10:30:54:567">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="50"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="6" column="7" id="241" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/mode_utilisation.s" session="MainSession" sp="1" timestamp="10:30:54:576">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="50"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<variables>
+					<variable name="MODEUTILISATION" value="11"/>
+				</variables>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="7" column="7" id="242" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/mode_utilisation.s" session="MainSession" sp="1" timestamp="10:30:54:581">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="50"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<variables>
+					<variable name="MODEUTILISATION" value="11"/>
+				</variables>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="9" column="7" id="296" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/mode_utilisation.s" session="MainSession" sp="1" timestamp="10:30:54:589">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="50"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<variables>
+					<variable name="MODEUTILISATION" value="11"/>
+				</variables>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="11" column="7" id="251" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/mode_utilisation.s" session="MainSession" sp="1" timestamp="10:30:54:594">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="50"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<variables>
+					<variable name="MODEUTILISATION" value="11"/>
+				</variables>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="12" column="7" id="250" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/mode_utilisation.s" session="MainSession" sp="1" timestamp="10:30:54:599">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="50"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<variables>
+					<variable name="MODEUTILISATION" value="11"/>
+				</variables>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="12" column="9" id="339" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/mode_utilisation.s" session="MainSession" sp="1" timestamp="10:30:54:602">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="50"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE" operation="Addition"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="12" column="11" id="260" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/mode_utilisation.s" session="MainSession" sp="1" timestamp="10:30:54:608">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="50"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE" operation="Addition"/>
+					<descriptor name="GESTION_ACTIVATION_WIFI" operation="Addition"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER" operation="Addition"/>
+					<descriptor name="TELECODAGE" operation="Addition"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="57" column="13" id="239" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/mode_utilisation.s" session="MainSession" sp="1" timestamp="10:30:54:611">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="50"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="GESTION_ACTIVATION_WIFI"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="8" column="7" id="333" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/menu0000.s" session="MainSession" sp="0" timestamp="10:30:54:615">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="50"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="GESTION_ACTIVATION_WIFI"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="10" column="7" id="187" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/menu0000.s" session="MainSession" sp="0" timestamp="10:30:54:619">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="50"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="GESTION_ACTIVATION_WIFI"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="1" column="7" id="10" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/gestion_type_moyen.s" session="MainSession" sp="1" timestamp="10:30:54:635">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="50"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="GESTION_ACTIVATION_WIFI"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="3" column="7" id="240" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/gestion_type_moyen.s" session="MainSession" sp="1" timestamp="10:30:54:639">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="50"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<variables>
+					<variable name="TYPEMOYEN" value="3"/>
+				</variables>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="GESTION_ACTIVATION_WIFI"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="4" column="7" id="327" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/gestion_type_moyen.s" session="MainSession" sp="1" timestamp="10:30:54:643">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="50"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<variables>
+					<variable name="TYPEMOYEN" value="3"/>
+				</variables>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="GESTION_ACTIVATION_WIFI"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="5" column="7" id="337" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/gestion_type_moyen.s" session="MainSession" sp="1" timestamp="10:30:54:647">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="50"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<variables>
+					<variable name="TYPEMOYEN" value="3"/>
+				</variables>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="GESTION_ACTIVATION_WIFI"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="6" column="7" id="328" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/gestion_type_moyen.s" session="MainSession" sp="1" timestamp="10:30:54:651">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="50"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<variables>
+					<variable name="TYPEMOYEN" value="3"/>
+				</variables>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="GESTION_ACTIVATION_WIFI"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="6" column="9" id="338" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/gestion_type_moyen.s" session="MainSession" sp="1" timestamp="10:30:54:655">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="50"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="GESTION_ACTIVATION_WIFI" operation="Substraction"/>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI" operation="Addition"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="11" column="13" id="326" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/gestion_type_moyen.s" session="MainSession" sp="1" timestamp="10:30:54:658">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="50"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="12" column="7" id="335" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/menu0000.s" session="MainSession" sp="0" timestamp="10:30:54:661">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="50"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="2" column="7" id="18" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/debut_gamme_outil.s" session="MainSession" sp="1" timestamp="10:30:54:673">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="50"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="3" column="7" id="20" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/debut_gamme_outil.s" session="MainSession" sp="1" timestamp="10:30:54:685">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="50"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="4" column="9" id="14" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/debut_gamme_outil.s" session="MainSession" sp="1" timestamp="10:30:55:115">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="11.74"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="5" column="9" id="15" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/debut_gamme_outil.s" session="MainSession" sp="1" timestamp="10:30:55:143">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="11.74"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="6" column="9" id="21" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/debut_gamme_outil.s" session="MainSession" sp="1" timestamp="10:30:55:184">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="11.74"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="11" column="8" id="11" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/debut_gamme_outil.s" session="MainSession" sp="1" timestamp="10:30:55:209">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="11.74"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="14" column="7" id="17" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/debut_gamme_outil.s" session="MainSession" sp="1" timestamp="10:30:55:216">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="11.74"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="13" column="7" id="336" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/menu0000.s" session="MainSession" sp="0" timestamp="10:30:55:228">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="11.74"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="15" column="7" id="205" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/menu0000.s" session="MainSession" sp="0" timestamp="10:30:55:238">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="11.74"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<variables>
+					<variable name="GV5=" value="20"/>
+				</variables>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="17" column="7" id="326" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/menu0000.s" session="MainSession" sp="0" timestamp="10:30:55:243">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="11.74"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="1" column="3" id="20" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/test_branchement_pupitre.s" session="MainSession" sp="1" timestamp="10:30:55:262">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="11.74"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="3" column="3" id="10" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/test_branchement_pupitre.s" session="MainSession" sp="1" timestamp="10:30:55:282">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="0.2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="4" column="3" id="12" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/test_branchement_pupitre.s" session="MainSession" sp="1" timestamp="10:30:55:290">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="0.2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="7" column="3" id="16" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/test_branchement_pupitre.s" session="MainSession" sp="1" timestamp="10:30:55:298">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="0.2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="10" column="5" id="18" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/test_branchement_pupitre.s" session="MainSession" sp="1" timestamp="10:30:55:306">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="0.2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="19" column="7" id="76" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/menu0000.s" session="MainSession" sp="0" timestamp="10:30:55:313">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="0.2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="1" column="7" id="10" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/etat_teledistribution.s" session="MainSession" sp="1" timestamp="10:30:55:390">
+			<local_params>
+				<codes>
+					<code name="Libre5" value="01"/>
+				</codes>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+					<variable name="V0" value="0"/>
+					<variable name="V7" value="145"/>
+					<variable name="V30" value="256"/>
+					<variable name="V70" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="3" column="7" id="12" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/etat_teledistribution.s" session="MainSession" sp="1" timestamp="10:30:55:399">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<variables>
+					<variable name="Etat Teledistribution" value="14"/>
+				</variables>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="4" column="7" id="13" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/etat_teledistribution.s" session="MainSession" sp="1" timestamp="10:30:55:403">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<variables>
+					<variable name="Etat Teledistribution" value="14"/>
+				</variables>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="5" column="7" id="25" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/etat_teledistribution.s" session="MainSession" sp="1" timestamp="10:30:55:411">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<variables>
+					<variable name="Etat Teledistribution" value="14"/>
+				</variables>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="6" column="7" id="14" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/etat_teledistribution.s" session="MainSession" sp="1" timestamp="10:30:55:415">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<variables>
+					<variable name="Etat Teledistribution" value="14"/>
+				</variables>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="7" column="7" id="15" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/etat_teledistribution.s" session="MainSession" sp="1" timestamp="10:30:55:419">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<variables>
+					<variable name="Etat Teledistribution" value="14"/>
+				</variables>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="8" column="7" id="16" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/etat_teledistribution.s" session="MainSession" sp="1" timestamp="10:30:55:423">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<variables>
+					<variable name="Etat Teledistribution" value="14"/>
+				</variables>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="9" column="7" id="32" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/etat_teledistribution.s" session="MainSession" sp="1" timestamp="10:30:55:427">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<variables>
+					<variable name="Etat Teledistribution" value="14"/>
+				</variables>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="10" column="7" id="33" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/etat_teledistribution.s" session="MainSession" sp="1" timestamp="10:30:55:432">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<variables>
+					<variable name="Etat Teledistribution" value="14"/>
+				</variables>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="11" column="7" id="34" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/etat_teledistribution.s" session="MainSession" sp="1" timestamp="10:30:55:436">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<variables>
+					<variable name="Etat Teledistribution" value="14"/>
+				</variables>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="12" column="7" id="35" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/etat_teledistribution.s" session="MainSession" sp="1" timestamp="10:30:55:439">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<variables>
+					<variable name="Etat Teledistribution" value="14"/>
+				</variables>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="13" column="7" id="36" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/etat_teledistribution.s" session="MainSession" sp="1" timestamp="10:30:55:443">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<variables>
+					<variable name="Etat Teledistribution" value="14"/>
+				</variables>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="14" column="7" id="37" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/etat_teledistribution.s" session="MainSession" sp="1" timestamp="10:30:55:448">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<variables>
+					<variable name="Etat Teledistribution" value="14"/>
+				</variables>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="15" column="7" id="38" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/etat_teledistribution.s" session="MainSession" sp="1" timestamp="10:30:55:452">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<variables>
+					<variable name="Etat Teledistribution" value="14"/>
+				</variables>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="16" column="7" id="39" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/etat_teledistribution.s" session="MainSession" sp="1" timestamp="10:30:55:455">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<variables>
+					<variable name="Etat Teledistribution" value="14"/>
+				</variables>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="17" column="7" id="42" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/etat_teledistribution.s" session="MainSession" sp="1" timestamp="10:30:55:459">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<variables>
+					<variable name="Etat Teledistribution" value="14"/>
+				</variables>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="21" column="13" id="24" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/etat_teledistribution.s" session="MainSession" sp="1" timestamp="10:30:55:461">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="21" column="7" id="47" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/etat_teledistribution.s" session="MainSession" sp="1" timestamp="10:30:55:467">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+					<variable name="V190" value="14"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<variables>
+					<variable name="Etat Teledistribution" value="14"/>
+				</variables>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="22" column="7" id="45" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/etat_teledistribution.s" session="MainSession" sp="1" timestamp="10:30:55:481">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+					<variable name="V190" value="14"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="23" column="7" id="48" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/etat_teledistribution.s" session="MainSession" sp="1" timestamp="10:30:55:484">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+					<variable name="V190" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="24" column="7" id="46" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/etat_teledistribution.s" session="MainSession" sp="1" timestamp="10:30:55:487">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="1" column="3" id="10" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STANDARD/GESTION/gestion_compte_rendu.s" session="MainSession" sp="2" timestamp="10:30:55:598">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="3" column="3" id="11" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STANDARD/GESTION/gestion_compte_rendu.s" session="MainSession" sp="2" timestamp="10:30:55:605">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+					<variable name="V0" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="4" column="3" id="66" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STANDARD/GESTION/gestion_compte_rendu.s" session="MainSession" sp="2" timestamp="10:30:55:612">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+					<variable name="V98" value="1"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="5" column="3" id="68" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STANDARD/GESTION/gestion_compte_rendu.s" session="MainSession" sp="2" timestamp="10:30:55:615">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="1" column="7" id="10" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STATISTIQUES/envoi_resultat.s" session="MainSession" sp="3" timestamp="10:30:55:625">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="3" column="7" id="15" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STATISTIQUES/envoi_resultat.s" session="MainSession" sp="3" timestamp="10:30:55:630">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+					<variable name="V98" value="1"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="4" column="7" id="19" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STATISTIQUES/envoi_resultat.s" session="MainSession" sp="3" timestamp="10:30:55:633">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="1" column="3" id="10" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STATISTIQUES/resultat_ok.s" session="MainSession" sp="4" timestamp="10:30:55:640">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="2" column="3" id="11" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STATISTIQUES/resultat_ok.s" session="MainSession" sp="4" timestamp="10:30:55:648">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="3" column="3" id="12" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STATISTIQUES/resultat_ok.s" session="MainSession" sp="4" timestamp="10:30:55:649">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="9" column="7" id="12" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STATISTIQUES/envoi_resultat.s" session="MainSession" sp="3" timestamp="10:30:55:653">
+			<local_params>
+				<test_result value="vrai"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="20" column="3" id="20" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STANDARD/GESTION/gestion_compte_rendu.s" session="MainSession" sp="2" timestamp="10:30:55:659">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="23" column="3" id="71" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STANDARD/GESTION/gestion_compte_rendu.s" session="MainSession" sp="2" timestamp="10:30:55:664">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="26" column="3" id="83" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STANDARD/GESTION/gestion_compte_rendu.s" session="MainSession" sp="2" timestamp="10:30:55:669">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="29" column="3" id="118" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STANDARD/GESTION/gestion_compte_rendu.s" session="MainSession" sp="2" timestamp="10:30:55:674">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="31" column="3" id="145" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STANDARD/GESTION/gestion_compte_rendu.s" session="MainSession" sp="2" timestamp="10:30:55:685">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="33" column="3" id="119" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STANDARD/GESTION/gestion_compte_rendu.s" session="MainSession" sp="2" timestamp="10:30:55:690">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="36" column="3" id="42" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STANDARD/GESTION/gestion_compte_rendu.s" session="MainSession" sp="2" timestamp="10:30:55:697">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="38" column="3" id="97" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STANDARD/GESTION/gestion_compte_rendu.s" session="MainSession" sp="2" timestamp="10:30:55:705">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="40" column="3" id="100" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STANDARD/GESTION/gestion_compte_rendu.s" session="MainSession" sp="2" timestamp="10:30:55:717">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="42" column="3" id="107" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STANDARD/GESTION/gestion_compte_rendu.s" session="MainSession" sp="2" timestamp="10:30:55:726">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="44" column="3" id="103" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STANDARD/GESTION/gestion_compte_rendu.s" session="MainSession" sp="2" timestamp="10:30:55:733">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="45" column="3" id="114" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STANDARD/GESTION/gestion_compte_rendu.s" session="MainSession" sp="2" timestamp="10:30:55:743">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="47" column="3" id="110" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STANDARD/GESTION/gestion_compte_rendu.s" session="MainSession" sp="2" timestamp="10:30:55:751">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="49" column="3" id="131" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STANDARD/GESTION/gestion_compte_rendu.s" session="MainSession" sp="2" timestamp="10:30:55:763">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="51" column="3" id="137" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STANDARD/GESTION/gestion_compte_rendu.s" session="MainSession" sp="2" timestamp="10:30:55:770">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="53" column="3" id="140" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STANDARD/GESTION/gestion_compte_rendu.s" session="MainSession" sp="2" timestamp="10:30:55:778">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="55" column="3" id="142" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STANDARD/GESTION/gestion_compte_rendu.s" session="MainSession" sp="2" timestamp="10:30:55:797">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="57" column="3" id="151" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STANDARD/GESTION/gestion_compte_rendu.s" session="MainSession" sp="2" timestamp="10:30:55:805">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="59" column="3" id="51" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STANDARD/GESTION/gestion_compte_rendu.s" session="MainSession" sp="2" timestamp="10:30:55:819">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="60" column="3" id="123" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STANDARD/GESTION/gestion_compte_rendu.s" session="MainSession" sp="2" timestamp="10:30:55:826">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="2"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="61" column="3" id="113" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STANDARD/GESTION/gestion_compte_rendu.s" session="MainSession" sp="2" timestamp="10:30:55:829">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="0"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="63" column="3" id="49" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/STANDARD/GESTION/gestion_compte_rendu.s" session="MainSession" sp="6" timestamp="10:30:55:834">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="0"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+				</descriptors>
+			</global_params>
+		</cell>
+		<cell line="25" column="7" id="27" file="/rtcode/HD00/TASK_TREE/ARBRE/COMMUN/GESTION/etat_teledistribution.s" session="MainSession" sp="6" timestamp="10:30:55:855">
+			<local_params>
+				<test_result value="faux"/>
+				<variables>
+					<variable name="VMEM" value="1"/>
+					<variable name="VCHK" value="3"/>
+					<variable name="VCANERR" value="0"/>
+					<variable name="VMES" value="0"/>
+					<variable name="VMESREEL" value="0"/>
+					<variable name="VMESERR" value="0"/>
+				</variables>
+			</local_params>
+			<global_params>
+				<descriptors>
+					<descriptor name="COUPURE"/>
+					<descriptor name="STAT_ODISSEE"/>
+					<descriptor name="GAMME_ODISSEE_RETOUCHE"/>
+					<descriptor name="PARAMETRAGE_PAR_BUFFER"/>
+					<descriptor name="TELECODAGE"/>
+					<descriptor name="SVI"/>
+					<descriptor name="MODE_DEGRADE_2"/>
+					<descriptor name="KEYBOARD_CODE"/>
+					<descriptor name="DUPLICATE_CODE"/>
+					<descriptor name="LANCEMENT_GAMME_EFFECTUE"/>
+					<descriptor name="GAMME_LANCE"/>
+					<descriptor name="D41"/>
+					<descriptor name="SITE_SOCHAUX"/>
+					<descriptor name="MISE_CONTACT"/>
+					<descriptor name="EOBD"/>
+					<descriptor name="FSE"/>
+					<descriptor name="SHUNT_COUPURE_APC_APPAIRAGE"/>
+					<descriptor name="SHUNT_TEST_APC_FIN_DE_GAMME"/>
+					<descriptor name="SESSION_EFFACEMENT_FLASH_BSI"/>
+					<descriptor name="EURO_6.3"/>
+					<descriptor name="PRESENCE_STTd"/>
+					<descriptor name="TELECODAGE_CODE_INJECTEUR"/>
+					<descriptor name="CMM_DV5RC_EU63_MD1"/>
+					<descriptor name="CMM_PROTOCOLE_UDS"/>
+					<descriptor name="CODE_INJ_IMA_5_POINTS"/>
+					<descriptor name="IMA_5_1"/>
+					<descriptor name="CODE_INJ_CYLINDRE_1"/>
+					<descriptor name="CODE_INJ_CYLINDRE_2"/>
+					<descriptor name="IMA_5_2"/>
+					<descriptor name="CODE_INJ_CYLINDRE_3"/>
+					<descriptor name="CODE_INJ_CYLINDRE_4"/>
+					<descriptor name="SHUNT_APPAIRAGE_MODE_ETUDE"/>
+					<descriptor name="PAS_DE_SYNCHRO_PLIP"/>
+					<descriptor name="ADML"/>
+					<descriptor name="BECB"/>
+					<descriptor name="CDPL"/>
+					<descriptor name="ESV_C"/>
+					<descriptor name="TNB"/>
+					<descriptor name="VSM"/>
+					<descriptor name="TEST_REMPLISSAGE_REALISE"/>
+					<descriptor name="ESC_Bosch_9.0"/>
+					<descriptor name="ESP"/>
+					<descriptor name="FREIN_PROTOCOLE_UDS"/>
+					<descriptor name="ESM"/>
+					<descriptor name="BVA_ATN8"/>
+					<descriptor name="BV_PROTOCOLE_UDS"/>
+					<descriptor name="BVA_PROTOCOLE_UDS"/>
+					<descriptor name="AIRBAG"/>
+					<descriptor name="DAE_UDS"/>
+					<descriptor name="COMBINE"/>
+					<descriptor name="COM2016"/>
+					<descriptor name="DRIVER_LED_L"/>
+					<descriptor name="DRIVER_LED_R"/>
+					<descriptor name="BML"/>
+					<descriptor name="SDCM"/>
+					<descriptor name="EMF_DGTXC"/>
+					<descriptor name="CORNER_RADAR_FL"/>
+					<descriptor name="CODE_ADC_LONG_4"/>
+				</descriptors>
+			</global_params>
+		</cell>
+	</trace>
+</trace_run>

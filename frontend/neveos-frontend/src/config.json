@@ -1,0 +1,7 @@
+{
+  "SERVER_URL": "http://10.1.16.37:3000",
+  "SERVER_BACKEND": "http://10.1.16.37:8090",
+  "SERVER_SOVD_HTTPS": "http://10.1.16.37:80",
+  "SERVER_SOVD_HTTP": "http://10.1.16.37:80",
+  "proxy": "http://10.1.16.37"
+}

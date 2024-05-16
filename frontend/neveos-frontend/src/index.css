@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 25px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.btn {
+  margin-left: 5px;
+}
+
+.row {
+  margin-bottom: 50px;
+  
+}
+.actia-line {
+  height: 4px;
+  width: 100%;
+  background-color: rgb(110, 197, 110);
+}
+
+.container-header{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.diag-btn {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.btn-light, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #ebe9e9 !important;
+}
+
+.nav-diag {
+  position: absolute;
+  top: 15%;
+  right: 10%;
+}
+
+.nav-diag-qsscreen{
+  position: absolute;
+  top: 80%;
+  right: 10%;
+}
+
+.div-centent-qsscreen {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  width: 100%;
+  height: 50%;
+}
+
+
+div.importTrace {
+  width: fill;
+  overflow: hidden;
+  clear: both;
+  padding: 5px;
+}
+
+.importTraceBtn {
+  float: right;
+}

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!ELEMENT Tree (Header,precel?,cel)>
+<!ATTLIST Tree
+    chk CDATA #REQUIRED
+    type (Tree|Script) #REQUIRED
+    onEnd (default|back|next) #IMPLIED
+    onBackExit (back|next) #IMPLIED>
+
+<!ELEMENT Header (IFile,ITool,FrontPage)>
+
+<!ELEMENT precel (TreeInfo*)>
+
+<!ELEMENT ITool (CDATA?)>
+<!ATTLIST ITool
+    name CDATA #REQUIRED
+    revision CDATA #REQUIRED
+    exedate CDATA #REQUIRED>
+
+<!ELEMENT IFile (FileName,Creation?,Modif?)>
+
+<!ELEMENT FileName (CDATA?)>
+<!ATTLIST FileName name CDATA #REQUIRED>
+
+<!ELEMENT FrontPage (CDATA?)>
+<!ATTLIST FrontPage
+    title CDATA #REQUIRED
+    description CDATA #REQUIRED>
+
+<!ELEMENT Creation (CDATA)>
+
+<!ELEMENT Modif (CDATA?)>
+<!ATTLIST Modif
+    date CDATA #REQUIRED
+    user CDATA #REQUIRED
+    site CDATA #REQUIRED>
+
+<!ELEMENT TreeInfo (Comment*)>
+<!ATTLIST TreeInfo
+    posc CDATA #REQUIRED
+    posl CDATA #REQUIRED
+    ident CDATA #REQUIRED>
+
+<!ELEMENT Comment ANY>
+
+<!--*************************************************************-->
+<!--*************
+CELL DEFINITION          ********-->
+<!--*************************************************************-->
+<!ELEMENT cel (Start,(Test|Act|End|SubTree|MenuScreen|MsgScreen|QsScreen|DiagScreen)*)>
+
+<!ELEMENT Act (Comment*,(ExecSODVAPI)*)>
+<!ATTLIST Act
+    posc CDATA #REQUIRED
+    posl CDATA #REQUIRED
+    destc CDATA #REQUIRED
+    destl CDATA #REQUIRED
+    ident CDATA #REQUIRED>
+
+<!--*************************************************************-->
+<!--*************
+SOVD DEFINITION  ********-->
+<!--*************************************************************-->
+
+<!ELEMENT ExecSODVAPI (Comment*,NamedBuffer)>
+<!ATTLIST ExecSODVAPI
+    Request CDATA #REQUIRED
+    HttpMethod (GET|POST|PUT|PATCH|DELETE) #REQUIRED>
+
+<!--*************************************************************-->
+<!--                CELL DEFINITION                       -->
+<!--*************************************************************-->
+<!ELEMENT Test (Comment?, VariableSource, Operator, VariableDestination)>
+<!ATTLIST Test
+    posc CDATA #REQUIRED
+    posl CDATA #REQUIRED
+    destyesc CDATA #REQUIRED
+    destyesl CDATA #REQUIRED
+    destnoc CDATA #REQUIRED
+    destnol CDATA #REQUIRED
+    ident CDATA #REQUIRED>
+
+<!ELEMENT Operator EMPTY>
+<!ATTLIST Operator value (EQUAL|NOTEQUAL|SUP|INF) #REQUIRED>
+
+<!ELEMENT VariableDestination (NamedBuffer?,String?)>
+
+<!ELEMENT VariableSource (NamedBuffer?,String?)>
+
+<!ELEMENT End (Comment)*>
+<!ATTLIST End
+    posc CDATA #REQUIRED
+    posl CDATA #REQUIRED
+    ident CDATA #REQUIRED>
+
+<!ELEMENT Start (Comment)*>
+<!ATTLIST Start
+    posc CDATA #REQUIRED
+    posl CDATA #REQUIRED
+    destc CDATA #REQUIRED
+    destl CDATA #REQUIRED
+    ident CDATA #REQUIRED>
+
+<!ELEMENT SubTree (Comment*,FilePath)>
+<!ATTLIST SubTree
+    posc CDATA #REQUIRED
+    posl CDATA #REQUIRED
+    destc CDATA #REQUIRED
+    destl CDATA #REQUIRED
+    ident CDATA #REQUIRED
+    FileName NMTOKEN #REQUIRED
+    IsCritical (NO|YES) #IMPLIED>
+
+
+<!--*************************************************************-->
+<!ELEMENT FilePath EMPTY>
+<!ATTLIST FilePath path NMTOKEN #REQUIRED>
+
+<!--************************************************************************-->
+<!--*********
+STANDARD SCREEN DESCRIPTION            ***********-->
+<!--************************************************************************-->
+<!-- Menus screens -->
+<!ELEMENT MenuScreen (Comment*,ScreenTitle?,(MenuItem)+)>
+<!ATTLIST MenuScreen
+    posc CDATA #REQUIRED
+    posl CDATA #REQUIRED
+    ident CDATA #REQUIRED>
+
+<!ELEMENT MenuItem (LabelContent+,TargetCell?)>
+<!ATTLIST MenuItem ident CDATA #IMPLIED>
+
+<!-- Message and Question screens -->
+<!ELEMENT MsgScreen (Comment*,ScreenTitle?,MsgItem+)>
+<!ATTLIST MsgScreen
+    posc CDATA #REQUIRED
+    posl CDATA #REQUIRED
+    destc CDATA #REQUIRED
+    destl CDATA #REQUIRED
+    ident CDATA #REQUIRED>
+
+
+<!ELEMENT QsScreen (Comment?,ScreenTitle+,MsgItem?,NamedBuffer?,Saisie?)>
+<!ATTLIST QsScreen
+    posc CDATA #REQUIRED
+    posl CDATA #REQUIRED
+    destyesc CDATA #REQUIRED
+    destyesl CDATA #REQUIRED
+    destnoc CDATA #REQUIRED
+    destnol CDATA #REQUIRED
+    ident CDATA #REQUIRED>
+
+<!ELEMENT ScreenTitle ANY>
+<!ATTLIST ScreenTitle
+    title CDATA #REQUIRED
+    description CDATA #IMPLIED>
+
+<!ELEMENT MsgItem (CDATA)>
+
+<!--*********
+STANDARD SCREEN DESCRIPTION            ***********-->
+
+
+<!--************************************************************************-->
+<!--*********
+MANUAL SCREEN DESCRIPTION            ***********-->
+<!--************************************************************************-->
+
+<!ELEMENT LabelContent (Paragraph)>
+
+<!ELEMENT TargetCell EMPTY>
+<!ATTLIST TargetCell
+    destc CDATA #REQUIRED
+    destl CDATA #REQUIRED>
+
+<!--*********
+MANUAL SCREEN DESCRIPTION         ***********-->
+
+<!ELEMENT Paragraph (FreeText)+>
+
+<!ELEMENT FreeText (Text)+>
+
+<!ELEMENT Text (CDATA)>
+
+<!--***********************************************************************-->
+<!--*********************
+ECU JOB SCREENS   **************************-->
+<!--***********************************************************************-->
+<!ELEMENT DiagScreen (Comment?,(ReadECUDataScr|CustomECUDataScr|ReadDTCScr|ClearDTCScreen|GlobalTestScr),Navigation?)>
+<!ATTLIST DiagScreen
+    posc CDATA #REQUIRED
+    posl CDATA #REQUIRED
+    destc CDATA #REQUIRED
+    destl CDATA #REQUIRED
+    ident CDATA #REQUIRED>
+
+<!ELEMENT ReadECUDataScr (NamedBuffer)*>
+<!ATTLIST ReadECUDataScr ScreenTitle CDATA #REQUIRED>
+
+<!ELEMENT Navigation EMPTY>
+<!ATTLIST Navigation
+    id CDATA #REQUIRED
+    backToId CDATA #IMPLIED
+    toId CDATA #IMPLIED>
+
+<!ELEMENT CustomECUDataScr EMPTY>
+
+<!ELEMENT ReadDTCScr (ScreenTitle?,NamedBuffer)>
+
+<!ELEMENT ClearDTCScreen EMPTY>
+
+<!ELEMENT GlobalTestScr (ScreenTitle?)>
+
+<!ELEMENT Saisie (Variable)>
+
+<!ELEMENT Variable EMPTY>
+<!ATTLIST Variable name CDATA #REQUIRED>
+<!--*************************************************************-->
+<!--*****************MATH
+AND LOGIC *************************-->
+<!--*************************************************************-->
+<!ELEMENT MathAndLogic ((Clear|Addition|Subtraction|RegExp)*)>
+
+<!ELEMENT RegExp ((NamedBuffer),Match?)>
+<!ATTLIST RegExp Pattern CDATA #REQUIRED>
+
+<!ELEMENT Match (NamedBuffer)>
+
+<!--***********************************************-->
+<!ELEMENT Clear (Destination+)>
+
+<!ELEMENT Addition ((Source,Destination))>
+
+<!ELEMENT Subtraction ((Source,Destination))>
+
+<!--*************************************************************-->
+<!ELEMENT Expression EMPTY>
+<!ATTLIST Expression value CDATA #REQUIRED>
+
+<!--*************************************************************-->
+<!ELEMENT EvalExpression (Expression,Destination)>
+
+<!ELEMENT descr (CDATA)>
+
+<!ELEMENT Globaldescr (CDATA)>
+
+<!ELEMENT Celldescr (CDATA)>
+
+<!ELEMENT DataComparison (Source,Source)>
+<!ATTLIST DataComparison type (EQUAL|INF|SUP|INFEQUAL|SUPEQUAL|DIFFERENT) #REQUIRED>
+
+<!--*************************************************************-->
+<!ELEMENT BinaryAnd (Source,Destination)>
+
+<!ELEMENT BinaryOr (Source,Destination)>
+
+<!ELEMENT BinaryExclusiveOr (Source,Destination)>
+
+<!--*************************************************************-->
+<!ELEMENT Assignment (Source,Destination)>
+
+<!ELEMENT BitsAssignmentWithShifting (Source,Destination)>
+
+<!ELEMENT NumBitDst (CDATA)>
+
+<!-- *******************************************************************-->
+<!-- *******************  DATA HANDLING    *****************************-->
+<!-- *******************************************************************-->
+<!ELEMENT Source (NamedBuffer)>
+
+<!ELEMENT Destination (NamedBuffer)>
+
+<!ELEMENT NamedBuffer EMPTY>
+<!ATTLIST NamedBuffer name CDATA #REQUIRED>
+
+<!ELEMENT Number (CDATA)>
+
+<!ELEMENT Length (CDATA)>
+
+<!ELEMENT ValPos (CDATA)>
+
+<!ELEMENT StandardValue EMPTY>
+<!ATTLIST StandardValue name (TRUE|FALSE|SUCCESS) #REQUIRED>
+
+<!ELEMENT FloatNumber (CDATA)>
+
+<!ELEMENT HexaInt (CDATA)>
+
+<!ELEMENT HexaBuffer (CDATA)>
+
+<!ELEMENT ASCIIString EMPTY>
+<!ATTLIST ASCIIString value CDATA #REQUIRED>
